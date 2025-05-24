@@ -9,7 +9,7 @@ public class _06_WhenToUse {
         return getPower(number, 2);
     }
 
-    public static int get Power(int number, int exponent) {
+    public static int getPower(int number, int exponent) {
         int result = 1;
         for (int i = 0; i < exponent; i++) {
             result *= number;
