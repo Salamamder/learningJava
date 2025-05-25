@@ -1,10 +1,10 @@
 package chap_07;
 
 public class BlackBox {
-    String modelName;
-    String resolution;
-    int price;
-    String color;
+    String modelName; // 모델명
+    String resolution; // 해상도
+    int price; // 가격
+    String color; // 색상
     int serialNumber; // 시리얼 번호
 
     static int counter = 0; // 시리얼 번호를 생성해주는 역할 (처음엔 0이였다가 ++ 연산을 통해서 값을 증가)
