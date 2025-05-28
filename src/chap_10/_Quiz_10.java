@@ -24,6 +24,9 @@ public class _Quiz_10 {
         System.out.println("--------------");
         list.stream().map(x -> x.customerAge >= 20 ? x.customerName + " 5000원" : x.customerName + " 무료").forEach(System.out::println);
 
+        System.out.println("-------------------------");
+
+
 
 
     }
@@ -33,9 +36,9 @@ class Customer {
     public String customerName; // 손님 이름
     public int customerAge; // 손님 나이
 
-    public Customer(String customerName, int customerAge) {
-        this.customerName = customerName;
-        this.customerAge = customerAge;
+    public Customer(String Name, int Age) {
+        this.customerName = Name;
+        this.customerAge = Age;
     }
 }
 
